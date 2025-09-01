@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parkgebühr</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fa;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+        h1 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+        }
+        .product-option {
+            background-color: #ffffff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+        .product-option:hover {
+            transform: translateY(-5px);
+        }
+        .product-option h2 {
+            color: #333;
+            font-size: 24px;
+            margin: 0;
+            font-weight: 600;
+        }
+        .product-option p {
+            color: #777;
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 15px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Parkgebühr</h1>
+        <p>Bitte wählen Sie eine der folgenden Parkoptionen und tätigen Sie Ihre Zahlung:</p>
+
+        <!-- Parking Option A -->
+        <div class="product-option">
+            <h2>Parkoption A</h2>
+            <p>Preis: 10 CHF für 1 Stunde Parken</p>
+            <a href="YOUR_PAYMENT_LINK_A" class="button" target="_blank">Jetzt bezahlen für Parkoption A</a>
+        </div>
+
+        <!-- Parking Option B -->
+        <div class="product-option">
+            <h2>Parkoption B</h2>
+            <p>Preis: 15 CHF für 1 Stunde Parken</p>
+            <a href="YOUR_PAYMENT_LINK_B" class="button" target="_blank">Jetzt bezahlen für Parkoption B</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2025 Ihr Parkplatzservice. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
